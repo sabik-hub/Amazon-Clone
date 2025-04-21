@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding: 1px 8px 0px 6px;    
+}
+.logo {
+    background-image: url(Image/amazon\ logo.png);
+    height: 50px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 1px;
+
+}
+.border{
+    border: 1.5px solid transparent;
+    
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 */
+.add-frist{
+    width: 147px;
+    height: 13px;
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second {
+    /* width: 100px; */
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+    padding-bottom: 1px;
+}
+.add-icon{
+    display: flex;
+}
+.nav-address {
+    margin: 1em;
+    padding: 8px 9px;
+    margin: 5px 2px 5px 0px;
+    width: 165.828px;
+    background-position: center;
+    
+}
+
+/* box3 */
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: #f3c94c;
+    margin: 0px 10px 0px 0px;
+    border-radius: 4px;
+    width: 734.34px;
+    height: 40.99px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+
+
+
+}
+.search-select {
+    color:#0F1111;
+    background-color: #EFEFEF;
+    font-size: 1rem;
+    padding-left: 5px;
+    height: 40.99px;
+    width: 52px;
+    text-align: center;
+    border: none;
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-input {
+    width: 619.88px;
+    height: 24px;
+    padding: 7px 10px 10px 0px;
+    font-size: 1rem;
+    border: none;
+}
+.Search-icon {
+    width: 52.47px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    color:#0F1111;
+}
+.nav-search:hover {
+    border: 1.5px solid #f3c94c;
+}
+
+/* box4 */
+.nav-language {
+    display: flex;
+    margin: 0px 0px 0px 1px;
+    height: 50.020px;
+    /* width: 47.313px; */
+    padding: 0px 0px 5px 7px;
+}
+
+.flag-image {
+    background-image: url(Image/Flag_of_India_\(Websafe\).svg.png);
+    height: 15.19px;
+    width: 19.59px;
+    padding: 0px 2px 1px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 33px;
+    display: inline-block;
+}
+.nav-Selection {
+    font-size: 14px;
+    width: 18.36px;
+    height: 15px;
+    position: sticky;
+    top: 31px;
+}
+.caret-down {
+    margin: 31px 0px 0px 1px;
+    font-size: 0.7rem;
+}
+.nav-signin {
+    width: 156.50px;
+    height: 46px;
+    padding: 8px 4px 0px 9px;
+    margin: 0px 1px;
+    background-position: center;
+}
+
+
+span {
+    font-size: 0.7rem;
+
+}
+.nav-return {
+    height: 46px;   
+    margin: 0px 0px 0px 6px; 
+    padding: 8px 9px 0px 9px; 
+    background-position: center;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+    width: 110px;
+}
+
+.nav-second2 {
+    width: 70px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.nav-cart {
+    display: flex;
+    height: 30px;
+    width: 84.95px;
+     margin: 0px 15px 0px 6px;
+     padding:13px 0px 12px 0px;
+}
+.cart-icon i{
+    font-size: 28px;
+    display: flex;   
+}
+.cart-text{
+    font-size: 18px;
+    position:relative;
+    top: 10px; 
+}
+
+
+/* panel */
+/* .panel {
+    display: flex;
+    } */
+    
+.panel {
+    height: 39px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 60.2px;
+    justify-content: space-evenly;
+}
+.panel-all i{
+    width: 17px;
+    height: 14px;
+    display: flex;
+} 
+.panel-all {
+    /* font -size: 25px; */
+    padding: 8px 9px;
+    display: flex;
+}
+.All {
+    padding: 0px 0px 0px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    /* display: flex; */
+}
+
+.fresh {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.mx-player {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.sell {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Bestseller {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Todays-Deals {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Prime {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Costomer-Service {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Fashion {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Amazon-Pay {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+.Home {
+    font-size: 14px;
+    height: 17px;
+    padding: 8px 5px;
+    margin: 5px 0px 6px;
+}
+
+/* hero section */
+
+.main{
+    background-color: #4c2f03e5;
+    height: 1210px;
+   
+}
+.hero-section {
+    background-image: url(Image/background\ hero.jpg);
+    background-size: contain;
+    height: 582px;
+}
+.hero-catecary {
+     padding: 350px 0px 0px 0px;
+}
+.frist-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 20px 0px;   
+}
+#frist-row-Heding {
+    font-size: 21px;
+    margin: 0px 0px 10px;
+    padding: 0px 20px;
+    background-color: white;
+    
+}
+.box {
+    background-color: white;
+    height: 420px;
+    width: 338px;
+    margin: 0px 10px;
+
+}
+.frist-image-cols1 {
+    background-image: url(Image/frist\ image\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-cols1 {
+    background-image: url(Image/second\ image\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-cols1 {
+    background-image: url(Image/third\ image\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-cols1 {
+    background-image: url(Image/fourth\ Image\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.frist-image-cols2 {
+    background-image: url(Image/frist\ imager\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-cols2 {
+    background-image: url(Image/second\ image\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-cols2 {
+    background-image: url(Image/third\ \ image\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-cols2 {
+    background-image: url(Image/fourth\ image\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.frist-image-cols3 {
+    background-image: url(Image/frist\ image\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-cols3 {
+    background-image: url(Image/second\ image\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-cols3 {
+    background-image: url(Image/third\ image\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-cols3 {
+    background-image: url(Image/fourth\ image\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.frist-image-cols4 {
+    background-image: url(Image/frist\ image\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-cols4 {
+    background-image: url(Image/second\ image\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-cols4 {
+    background-image: url(Image/third\ image\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-cols4 {
+    background-image: url(Image/fourth\ image\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+/* row2 */
+.frist-image-row2-cols1 {
+    background-image: url(Image/frist\ image\ row2\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-row2-cols1 {
+    background-image: url(Image/second\ image\ row2\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-row2-cols1 {
+    background-image: url(Image/third\ image\ row2\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-row2-cols1 {
+    background-image: url(Image/fourth\ image\ row2\ cols1.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.frist-image-row2-cols2 {
+    background-image: url(Image/frist\ image\ row2\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-row2-cols2 {
+    background-image: url(Image/second\ image\ row2\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-row2-cols2 {
+    background-image: url(Image/third\ image\ row2\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-row2-cols2 {
+    background-image: url(Image/fourth\ image\ row2\ cols2.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.frist-image-row2-cols3 {
+    background-image: url(Image/frist\ image\ row2\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-row2-cols3 {
+    background-image: url(Image/second\ image\ row2\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-row2-cols3 {
+    background-image: url(Image/third\ image\ row2\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-row2-cols3 {
+    background-image: url(Image/fourth\ image\ row2\ cols3.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.frist-image-row2-cols4 {
+    background-image: url(Image/frist\ image\ row2\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.second-image-row2-cols4 {
+    background-image: url(Image/second\ image\ row2\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.third-image-row2-cols4 {
+    background-image: url(Image/third\ image\ row2\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+.fourth-image-row2-cols4 {
+    background-image: url(Image/fourth\ image\ row2\ cols4.jpg);
+    background-size: cover;
+    height: 106px;
+    width: 163.91px;
+}
+
+.image-box-row1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image1 {
+    background-color: white;
+    margin: 0px 10px 0px 20px;
+}
+.image2{
+   
+    background-color: white;
+    margin: 0px 20px 0px 10px;
+
+}
+.name-bar-cols1 {
+    font-size: 12px;
+    height: 18px;
+    width: 127px;
+    margin: 0px 22px 0px 20px;
+}
+.name-bar-cols2 {
+    font-size: 12px;
+    height: 18px;
+    width: 127px;
+    margin-left: 10px;
+}
+.cols-wise-box {
+    height: 36px;
+    display: flex;
+}
+.see-more {
+    height: 18px;
+    margin-top: 50px;
+    padding-left: 20px;
+    color: #2162a1;
+}
+
+/* .rhf-border */
+
+
+.rhf-border {
+    background-color: white;
+    height: 148px;
+    padding: 0px 20px;
+    border: 1.5px solid black;
+    text-align: center;
+    margin: 40px 18px 20px;
+    border-radius: 10px;
+
+}
+.rhf-sigh-button {
+    padding: 10px 0px 0px; 
+
+}
+#msg{
+    padding-bottom: 4px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.sign-button {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* height: 29px; */
+    /* width: 232px; */
+    margin-bottom: 10px;
+}
+.sign-button a{
+    /* font-size: 30px; */
+    border: 1px solid #ffd814;
+    padding: .5rem 5rem;
+    background-color: #f3c94c;
+    text-decoration: none;
+    color:black;
+    border-radius: 15px;
+
+}
+
+/* footer */
+
+.footer-panel {
+    background-color:rgba(30, 86, 99, 0.501);
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    
+}
+.footer-panel-main {
+    /* display: flex; */
+    background-color:#232f3e;
+    color: #0f1111;
+}
+.panel-modified {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 49px 0px 49px;
+}
+.modified {
+    font-size: 16px;
+    padding: 6px 0px 14px;
+}
+.modifie{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* nav panel */
+
+.nav-panel {
+     align-items: center; 
+    color: #dddddd;
+    height: 68px;
+    margin: 10px 0px 0px 0px;
+    background-color: #232f3e;
+    border-top: .5px solid #dddddd;
+    justify-content: center;
+    display: flex;
+    
+}
+.logo-Amazon {
+    background-image: url(Image/amazon\ logo.png);
+    height: 27px;
+    width: 76px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logo-panel{
+    justify-content: center;
+    height: 27px;
+    width: 76px;
+    padding: 0px 7.2px; 
+}
+.space{
+    width: 90px;
+}
+
+.country-box {
+    border: 1.5px solid;
+    display: flex;
+    align-items: center;
+    width: 62.7px;
+    height: 18px;
+    border-radius: 2px;
+    padding: 6px 18px 6px 8px;
+
+}
+.flag {
+    background-image: url(Image/Flag_of_India_\(Websafe\).svg.png);
+    height: 12px;
+    width: 18px;
+    margin: 3px 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.India {
+    font-size: 13px;
+    height: 18px;
+    padding: 0px 7.8px;
+    margin: 0px 4px 0px 0px;
+
+}
+
+.language-panel-box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 18px;
+    padding: 6px 8px 6px 8px;
+    border: 1.5px solid;
+    border-radius: 2px;
+    margin: 0px 4px 0px 0px; 
+}
+#size {
+    padding:0px 14px 0px 7px;
+}
+.foot-panel-final {
+    height: 36px;
+    padding: 10px 0px 30px;
+    color: #dddddd;
+    background-color: #131a22;
+    align-items: center;
+    font-size: 12px;
+}
+.Page {
+    text-align: center;
+}
+.Copyright {
+    text-align: center;
+}
+.space {
+    padding: 0px 7.2px;
+}
+.footer-link-panel {
+    height: 122.15px;
+}
